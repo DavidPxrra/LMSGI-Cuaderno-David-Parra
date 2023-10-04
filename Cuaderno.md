@@ -12,9 +12,10 @@ Los lenguajes de marca, al igual que las demás tecnologías del software, han i
 - GML
 - SGML
 ## Características de los lenguajes de marcas
+Los lenguajes de marcas suelen ser facil de utilizar y de interpretar. Hacen uso de etiquetas. Su lenguaje es estático. Se despliegan rápidamente. Multiplataforma. En lenguajes como XML, el contenido esta separado del formato, por lo tanto se puede remodelar facilmente sin dañar el contenido. Son texto plano. Lenguaje flexible, compacto y facil de procesar.
 ## Características y ejemplos de los siguientes lenguajes de marcas:
-- XML
-- HTML
+- XML: Permite crear etiquetas y esquemas. Diseño y contenido independiente. Formato texto. Guardado e intercambio flexibles
+- HTML: 
 - JSON
 - YAML
 ## XML: definición y características del metalenguaje
