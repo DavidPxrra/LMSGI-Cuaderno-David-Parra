@@ -1,5 +1,6 @@
 # Cuaderno
 ## Tabla de contenidos.
+[Características del lenguaje de marcas](https://github.com/DavidPxrra/LMSGI-Cuaderno-David-Parra/edit/main/Cuaderno.md#qu%C3%A9-es-un-lenguaje-de-marcas)
 ## Enlaces de interes
 [w3, aprender programación](https://www.w3.org/)
 
@@ -66,7 +67,28 @@ Acerca de: m>
  escuchar deathcore melódico
 ```
 ## XML: definición y características del metalenguaje
-- prologo
-- Contenido
-- atributos
+- prologo: Se trata de las primeras lineas del codigo que indican la versión y el tipo de documento ente otros datos que pueden resultar relevantes sobre todo a la hora de exportar el documento.
+- Contenido: Es el contenido en sí del archivo, al cual el resto de elmentos como etiquetas deben de darle formato. Pueden ser un conjunto de datos que aportan información sobre otro.
+- atributos: utilizados para diferenciar elementos con el mismo nombre.
 - Ejemplos en XML
+  ```
+  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<root>
+		<clients>
+			<client DNI="73061632 Q">
+				<name> Melquiades </name>
+				<lastname1> Ojeda </lastname1>
+				<lastname2> Targaryen </lastname2>
+			</client>
+		</clients>
+		
+		<products>
+			<product fechainicio="12/02/2022" fechafin="26/12/2023">
+				<name> Botijo Carmesí </name>
+			</product>
+			<product fechainicio="05/11/2019" fechafin="16/10/2023">
+				<name> Manatí MKII </name>
+			</product>
+		</products>
+	</root>
+  ```
