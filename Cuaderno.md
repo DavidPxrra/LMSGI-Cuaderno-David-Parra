@@ -1,6 +1,6 @@
 # Cuaderno
 ## Tabla de contenidos.
-[Qué es un Lenguaje de marcas](#id1)
+[Qué es un Lenguaje de marcas](https://github.com/DavidPxrra/LMSGI-Cuaderno-David-Parra/edit/main/Cuaderno.md#qu%C3%A9-es-un-lenguaje-de-marcas)
 ## Enlaces de interes
 [w3, aprender programación](https://www.w3.org/)
 
