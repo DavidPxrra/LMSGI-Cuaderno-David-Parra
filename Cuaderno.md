@@ -91,3 +91,29 @@ Acerca de: m>
 		</products>
 	</root>
   ```
+# Actividad de cuaderno UD2
+## Documentos XML; estructura:
+- Declaración o prólogo:
+- Elementos:
+- Atributos:
+- Comentarios:
+- Espacios de nombres:
+- Entidades
+- CDATA:
+## Validación de documentos:
+### DTD:
+- Entidades:
+- Anotaciones:
+- Elementos:
+- Atributos
+### XMLSchema:
+- Definición:
+- Estructura básica:
+- Elementos locales y globales:
+- Elementos simples:
+- Elementos complejos:
+- Subelementos:
+- Atributos:
+- Restricciones
+- Tipos de datos:
+- Comentarios de XMLSchema
