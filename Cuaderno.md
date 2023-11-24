@@ -125,14 +125,54 @@ Acerca de: m>
   ```
   <![CDATA[ aqui podría ir cualquier cosa, como otro fragmento de codigo de ejemplo]]>
 ## Validación de documentos:
-### DTD:
-- Entidades:
-- Anotaciones:
-- Elementos:
-- Atributos
+### DTD: Lo componen una serie de reglas que permiten validar documentos XML. Puede formar parte del documento o validar este de un archivo externo. La estrcutura de DTD se basa en la de XML, por lo que si queremos añader restricciones mas complejas podemos optar por otro dialecto de validación mas completo como XML Schema.
+- Entidades: Ya hemos hablado de las entidades en la estructura de XML, y estas pueden estar definidas por ejemplo dentro del DTD para establecer valores dentro del documento que valide este DTD, como ya habíamos dicho, al igual que pueden ser internas o agenas al archivo.
+  ```
+  <!ENTITY nombreEntidad “valor”>
+  ```
+- Anotaciones: Las anotaciones nos permiten saber si una entidad es no XML y su formato, y que por lo tanto no ha de ser procesada. Pueden ser públicas o privadas.
+  ```
+  <!NOTATION nombre SYSTEM “URI”>
+  ```
+- Elementos: Los elementos DTD no tienen mucho misterio; definen la estrucutra de los elementos XML que representan. Pueden declarar que un elemento es obligatorio (#REQUIRED) entre muchos otros parámetros que podemos poner dentro del elemento. Su sintaxis es la siguiente:
+  ```
+  <!ELEMENT ejemplo (#REQUIRED)>
+  ```
+- Atributos: Actuan al igual que los elementos. Podemos aplicarle un sin fin de configuraciones modificando el tipo de, atributo, si es obligatorio o no, etc...
+  ```
+  <!ATTLIST producto ref CDATA #REQUIRED>
+  ```
 ### XMLSchema:
-- Definición:
-- Estructura básica:
+- Definición: XML Schema al igual que DTD nos permite realizar la validación de XML pero de una forma mucho más compleja y detallada basada en la utilización de etiquetas, escribiendose como XML pero con sus propias reglas.
+- Estructura básica: La estructura básica de XML Schema es la siguiente:
+```
+  <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="peliculas">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="pelicula">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="titulo"></xs:element>
+                            <xs:element name="director"></xs:element>
+                            <xs:element name="sinopsis"></xs:element>
+                            <xs:element name="actores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="actor" maxOccurs="unbounded"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="estreno" type="xs:date"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
+```
+Se escribe como hemos dicho haciendo uso de etiquetas, englobandose todas dentro de ```<xs:schema>```. Los elementos poseen tipos simples o complejos, que definen que clase de elementos, restricciones o atributos engloban, los cuales veremos detalladamente a continuación
 - Elementos locales y globales:
 - Elementos simples:
 - Elementos complejos:
