@@ -173,9 +173,27 @@ Acerca de: m>
 </xs:schema>
 ```
 Se escribe como hemos dicho haciendo uso de etiquetas, englobandose todas dentro de ```<xs:schema>```. Los elementos poseen tipos simples o complejos, que definen que clase de elementos, restricciones o atributos engloban, los cuales veremos detalladamente a continuación
-- Elementos locales y globales:
-- Elementos simples:
-- Elementos complejos:
+- Elementos locales y globales: Los elementos locales son hijos de un elemento que no seal el raiz, los cuales son de un solo uso, mientras que los elementos globales son hijos del raiz y pueden ser reutalizados. Un ejemplo del global seria cada alumno dentro de un elemento raiz llamado alumnos, mientras que cada elemento dentro de cada alumno, como bien podría ser clase,asgintaruas, etc.. conformarían los elementos locales. Los eleemntos poseen etiqueta de apertura y cierre como todo lo demás dentro de XML Schema y se representarían así: ```<xs:element name="ejemplo"></xs:element>```
+- Elementos simples: Son aquellos que guardan información directamente, como un texto, valor, etc... Hacen uso del atributo "type" para autodefinirse o utilizan restricciones.
+  ```
+  <xs:element name="minima">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:integer">
+                                            <xs:minExclusive value="-50"></xs:minExclusive>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+  ```
+- Elementos complejos: Son aquellos que alojan otros elementos, que pueden ser simples o complejos a su vez. También pueden aplicar restricciones a las relaciones entre elementos.
+  ```
+  <xs:element name="actores">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="actor" maxOccurs="unbounded"></xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+  ```
 - Subelementos:
 - Atributos:
 - Restricciones
