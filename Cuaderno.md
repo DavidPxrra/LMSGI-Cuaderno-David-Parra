@@ -210,4 +210,4 @@ Se escribe como hemos dicho haciendo uso de etiquetas, englobandose todas dentro
                             </xs:element>
   ```
 - Tipos de datos: Hemos hablado de los atributos, pues el atributo "type" nos permite saber cual es el tipo de dato del que se trata el elemento. ```xs:string``` se usa para cadenas de caracteres, ```xs:integer``` para valores numéricos enteros, etc... También hay preestablecidos para otras usos mas complejos, sin tener que hacer uso de restricciones para un formato común pero específico, como puede ser la fecha; ```xs:date```. 
-- Comentarios de XMLSchema
+- Comentarios de XMLSchema: Los comentarios en XML Schema tienen el mismo uso que citamos para XML, y que en general se comparte en todo el ámbito de la informática. Los comentarios en XML Schema se escriben entre las etiquetas ```<annotation></annotation>```
