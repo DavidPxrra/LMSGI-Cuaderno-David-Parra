@@ -117,8 +117,13 @@ Acerca de: m>
   xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
 <!-- Se escriben dentro de la etiqueta de apertura (como cualquier otro atributo) del elemento raiz -->
 ```
-- Entidades: Estas permiten añadir informarción que ya está
-- CDATA:
+- Entidades: Estas permiten añadir informarción que ya está definida en el mismo DTD del documento, o proporcionada de forma externa por el espacio de nombre. Pueden ser aplicables para un único archivo para el que están escritas o externas, que se pueden aplicar y mantienen sus valores fuera de este. Existen 5 entidades por defecto, y esta es una de ellas:
+  ```
+  &apos;
+  ```
+- CDATA: Todo lo que se incluyan dentro de la sección CDATA será texto plano el cual no será procesado, pero que si formará parte del documento, a diferencia de un comentario.
+  ```
+  <![CDATA[ aqui podría ir cualquier cosa, como otro fragmento de codigo de ejemplo]]>
 ## Validación de documentos:
 ### DTD:
 - Entidades:
