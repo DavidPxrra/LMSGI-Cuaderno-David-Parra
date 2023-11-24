@@ -194,8 +194,20 @@ Se escribe como hemos dicho haciendo uso de etiquetas, englobandose todas dentro
                                 </xs:complexType>
                             </xs:element>
   ```
-- Subelementos:
-- Atributos:
-- Restricciones
-- Tipos de datos:
+- Subelementos: Se alojan dentro de los tipos complejos. Establecen relaciones dentro de los elementos que contiene el tipo complejo:
+  ```xs:sequence```: indica una secuencia de elementos obligatorios, y en el mismo orden.
+  ```xs:choise```: señala una secuencia de elementos alternativos. Solo debe aparecer uno de ellos.
+  ```xs:all```: indica una secuencia de elementos opcionales; no es obligatorio que aparezcan todos en el mismo orden.
+- Atributos: Todos los elementos pueden albergar atributos que los definen. Algunos de estos atributos son "type" para el tipo de contenido, "use" para determinar la obligatoriedad, o el más común "name" para signar un nombre que identifique el elemento dentro de XML.
+- Restricciones: Permiten aplicar como su propio nombre indica, restricciones de todo tipo a los disntitos elementos y atributos. Este es un ejemplo de su sintáxis, para establecer que el elemento tenga que escribirse de una manera específica:
+  ```
+  <xs:element name="CIF">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:pattern value="[A-Z]{1}[0-9]{7}"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+  ```
+- Tipos de datos: Hemos hablado de los atributos, pues el atributo "type" nos permite saber cual es el tipo de dato del que se trata el elemento. ```xs:string``` se usa para cadenas de caracteres, ```xs:integer``` para valores numéricos enteros, etc... También hay preestablecidos para otras usos mas complejos, sin tener que hacer uso de restricciones para un formato común pero específico, como puede ser la fecha; ```xs:date```. 
 - Comentarios de XMLSchema
