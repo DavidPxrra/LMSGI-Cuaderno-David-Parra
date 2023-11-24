@@ -93,12 +93,31 @@ Acerca de: m>
   ```
 # Actividad de cuaderno UD2
 ## Documentos XML; estructura:
-- Declaración o prólogo:
-- Elementos:
-- Atributos:
-- Comentarios:
-- Espacios de nombres:
-- Entidades
+- Declaración o prólogo: se trata de un elemento opcional que se escribe al comienzo del archivo XML, en el que se indican datos relevantes como la versión de XML o si se trata de un archivo
+  único o si está enlazado a algún archivo externo, como bien podría ser un DTD para su validación. Aquí un ejemplo para ver su sintáxis, la cual no suele variar mucho:
+  ```
+  <?xml version="1.0" encoding="UTF-8"?>
+  ```
+- Elementos: Los elementos componen el grueso de un archivo XML, indicando los datos y de que clase son, albergando en su interior otros elementos para crear estructuras complejas de información.
+  Los elementos siempre tienen una etiqueta que los abre y otra que los cierra, y siempre debe de haber un elemento raiz que englobe a todos los demás que conformen el fichero. Los elementos dentro de otros
+  elementos se llaman hijos, y los que los albergan, padres. Los elementos se componen habitualmente de caracteres alfanuméricos.
+  ```
+  <prueba>esto es una prueba</prueba>
+- Atributos: Se escriben entre comillas y dentro de la etiqueta de apertura de un elemento. Se utilizan para aportar información extra y definir aun más un fichero XML. Poseen sus propias reglas como comenzar por una letra o "_" o que diferencian entre mayúsculas y minúsculas etc... Ejemplo:
+  ```
+  <elementaco nombre="cebolla"></elementaco>
+  <!-- cebolla es el atributo, y esto es un comentario, el cual veremos que es en el siguiente apartado -->
+  ```
+- Comentarios: Los comentarios a la hora de la verdad, no aportan nada a la funcionalidad o disposición del XML, si no que sirven como anotaciones para guiar a las personas que utilizan dichos archivos. Pueden aclarar la finalidad del archivo, incluir peticiones, reglas o metodologías que han de cumplirse para escribir el código como es debido, también pueden tener un propósito didactico, de advertencia, entre un millón de utilidades que se le pueden atribuir. Se escriben así:
+  ```
+  <!-- Esto es un pedazo de comentario -->
+  ```
+- Espacios de nombres: Los espacios de nombres son usados para definir el tipo de dialecto XML por así decirlo, que va a usarse en el fichero, con la finalidad de resolver posibles problemas que surjan a causa de la existencia de elementos o atributos que se repitan. Se escriben como un atributo específico seguido de una URL.
+```
+  xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+<!-- Se escriben dentro de la etiqueta de apertura (como cualquier otro atributo) del elemento raiz -->
+```
+- Entidades: Estas permiten añadir informarción que ya está
 - CDATA:
 ## Validación de documentos:
 ### DTD:
