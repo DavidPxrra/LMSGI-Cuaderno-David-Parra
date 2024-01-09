@@ -233,9 +233,9 @@ Los CRM o "Customer Relationship Management" a diferencia de los ERP, no se apli
   	- Pipedrive
   	- Salesforce
 ## BI:
-- Definición y componentes: "Business Intelligence" se trata de una serie de tecnologías cuyo único objetivo, y que comparten entre sí, es el de facilitar la dirección de una empresa para catapultarla al éxito. En sí "BI" no se trata de un Sistema de Gestión de Información, puesto que no es una plataforma unificada, si no que "BI" hace uso de distintos módulos o componentes indepentientes que nos permiten realizar las mismas tareas que haríamos con un sistema de gestión.
-- ETL:
-- Data WareHouse:
-- OLAP:
-- Data Minining:
-- Dashboard:
+- **Definición y componentes:** "Business Intelligence" se trata de una serie de tecnologías cuyo único objetivo, y que comparten entre sí, es el de facilitar la dirección de una empresa para catapultarla al éxito. En sí "BI" no se trata de un Sistema de Gestión de Información, puesto que no es una plataforma unificada, si no que "BI" hace uso de distintos módulos o componentes indepentientes que nos permiten realizar las mismas tareas que haríamos con un sistema de gestión.
+- **ETL:**
+- **Data WareHouse:**
+- **OLAP:**
+- **Data Minining:**
+- **Dashboard:**
