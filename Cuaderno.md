@@ -214,11 +214,17 @@ Se escribe como hemos dicho haciendo uso de etiquetas, englobandose todas dentro
 
 # Actividad de cuaderno UD7
 ## Sistemas de gestión de información:
-- Características:
-- Tipos:
+- Características: Los sistemas de gestión de la información son programas que permiten a las empresas que los utilizan monitorizar los procesos y gestionar la actividad e información de la misma. A la larga optimizan y mejoran la eficiencia. 
+- Tipos: Existen distintos tipos de Sistemas de Gestión de Información, podiendo clasificarlos entre locales (alojados en equipos de la empresa y trabajando con ellos únicamente dentro del departamento o edificio) o en la nube (utilizando servicios online pudiendo ser provistos por otra empresa, y pudiendo acceder a ellos desde cualquier equipo con una conexión a la nube). También se pueden clasificar teniendo en cuanta el tipo en sí del sistema gestor, siendo los más conocidos los "ERP", "CRM" o haciendo uso de "Business Intelligence). Veremos cada uno de estos tipos a continuación.
 ## ERP:
-- Características y beneficios:
-- Ejemplos ERP más conocidos:
+Los ERP (“Enterprise Resource Planning) consisten en un paquete software compuesto por distintas aplicaciones, que en sus totalidad deben de cubrir todas las actividades de la empresa, desde las finanzas hasta la producción. 
+- Características y beneficios: Su objetivo es el de optimizar la producción y gestión de la empresa, mediante la automatización de las tareas. Los ERP proporcionan todo lo necesario en un mismo entorno, e intagran todas las bases de datos en el mismo programa. Los ERP deben de ser seguros respecto a sus datos, garantizando la integridad de estos, además de ser escalables para adaptarse a las necesidades de la empresa
+- Ejemplos ERP más conocidos: Dentro de los ERP los hay; genéricos (se utilizan los módulos predefinidos que necesita la empresa), configurables (cuyo núcleo se puede configurar para adaptarse al milímetro a la actividad de la empresa) y a medida (consiste en crear un ERP propio diseñado únicamente para satisfacer a la empresa).
+  Algunos ERP muy conocidos y usados hoy en dia son:
+  - Microsoft Dynamics
+  - Odoo
+  - SAP
+  - SAGE
 ## CRM:
 - Características y beneficios:
 - Ejemplos CRM más conocidos:
