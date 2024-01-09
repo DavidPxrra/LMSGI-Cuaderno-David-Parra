@@ -218,16 +218,17 @@ Se escribe como hemos dicho haciendo uso de etiquetas, englobandose todas dentro
 - Tipos: Existen distintos tipos de Sistemas de Gestión de Información, podiendo clasificarlos entre locales (alojados en equipos de la empresa y trabajando con ellos únicamente dentro del departamento o edificio) o en la nube (utilizando servicios online pudiendo ser provistos por otra empresa, y pudiendo acceder a ellos desde cualquier equipo con una conexión a la nube). También se pueden clasificar teniendo en cuanta el tipo en sí del sistema gestor, siendo los más conocidos los "ERP", "CRM" o haciendo uso de "Business Intelligence). Veremos cada uno de estos tipos a continuación.
 ## ERP:
 Los ERP (“Enterprise Resource Planning) consisten en un paquete software compuesto por distintas aplicaciones, que en sus totalidad deben de cubrir todas las actividades de la empresa, desde las finanzas hasta la producción. 
-- Características y beneficios: Su objetivo es el de optimizar la producción y gestión de la empresa, mediante la automatización de las tareas. Los ERP proporcionan todo lo necesario en un mismo entorno, e intagran todas las bases de datos en el mismo programa. Los ERP deben de ser seguros respecto a sus datos, garantizando la integridad de estos, además de ser escalables para adaptarse a las necesidades de la empresa
-- Ejemplos ERP más conocidos: Dentro de los ERP los hay; genéricos (se utilizan los módulos predefinidos que necesita la empresa), configurables (cuyo núcleo se puede configurar para adaptarse al milímetro a la actividad de la empresa) y a medida (consiste en crear un ERP propio diseñado únicamente para satisfacer a la empresa).
+- **Características y beneficios:** Su objetivo es el de optimizar la producción y gestión de la empresa, mediante la automatización de las tareas. Los ERP proporcionan todo lo necesario en un mismo entorno, e intagran todas las bases de datos en el mismo programa. Los ERP deben de ser seguros respecto a sus datos, garantizando la integridad de estos, además de ser escalables para adaptarse a las necesidades de la empresa
+- **Ejemplos ERP más conocidos:** Dentro de los ERP los hay; genéricos (se utilizan los módulos predefinidos que necesita la empresa), configurables (cuyo núcleo se puede configurar para adaptarse al milímetro a la actividad de la empresa) y a medida (consiste en crear un ERP propio diseñado únicamente para satisfacer a la empresa).
   Algunos ERP muy conocidos y usados hoy en dia son:
-  - Microsoft Dynamics
-  - Odoo
-  - SAP
-  - SAGE
+  - **Microsoft Dynamics**
+  - **Odoo**
+  - **SAP**
+  - **SAGE**
 ## CRM:
-- Características y beneficios:
-- Ejemplos CRM más conocidos:
+Los CRM o "Customer Relationship Management" a diferencia de los ERP, no se aplican sobre la actividad y producción de la empresa, si no en las relaciones con los consumidores. Esto se traduce en un programa que nos permite acceder a información relevante sobre los clientes, como las interacciones que tienen con nosotros, además de permitirnos también la automatización de procesos entre otras funcionalidades.
+- **Características y beneficios:** Los CRM tienen como objetivo mejorar la relación con los clientes, permitiendo una atención más personalizada y cercana. Todo esto es posible gracias a la gestión de los contactos, diferenciación de los clientes, canalizar los servicios en un único medio, difusión mediante redes sociales etc... Con la información recaudada de los clientes, se facilita la toma de decisiones, ya que entre esta información se deben de encontrar opiniones, preferencias, reportes o valores relacionados con el número de veces que se ha adquirido un servicio, que en definitiva nos permite saber que funciona y que no. Esto nos permite saber por donde entrar para cerrar ventas o hacia donde enfocar las campañas de marketing, lo que nos conducirá a una mejora constante tanto de la empresa como del servicio o productos que ofrece.
+- **Ejemplos CRM más conocidos:**
 ## BI:
 - Definición y componentes:
 - ETL:
