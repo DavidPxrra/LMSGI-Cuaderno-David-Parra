@@ -221,16 +221,19 @@ Los ERP (“Enterprise Resource Planning) consisten en un paquete software compu
 - **Características y beneficios:** Su objetivo es el de optimizar la producción y gestión de la empresa, mediante la automatización de las tareas. Los ERP proporcionan todo lo necesario en un mismo entorno, e intagran todas las bases de datos en el mismo programa. Los ERP deben de ser seguros respecto a sus datos, garantizando la integridad de estos, además de ser escalables para adaptarse a las necesidades de la empresa
 - **Ejemplos ERP más conocidos:** Dentro de los ERP los hay; genéricos (se utilizan los módulos predefinidos que necesita la empresa), configurables (cuyo núcleo se puede configurar para adaptarse al milímetro a la actividad de la empresa) y a medida (consiste en crear un ERP propio diseñado únicamente para satisfacer a la empresa).
   Algunos ERP muy conocidos y usados hoy en dia son:
-  - **Microsoft Dynamics**
-  - **Odoo**
-  - **SAP**
-  - **SAGE**
+  	- **Microsoft Dynamics**
+  	- **Odoo**
+  	- **SAP**
+  	- **SAGE**
 ## CRM:
 Los CRM o "Customer Relationship Management" a diferencia de los ERP, no se aplican sobre la actividad y producción de la empresa, si no en las relaciones con los consumidores. Esto se traduce en un programa que nos permite acceder a información relevante sobre los clientes, como las interacciones que tienen con nosotros, además de permitirnos también la automatización de procesos entre otras funcionalidades.
 - **Características y beneficios:** Los CRM tienen como objetivo mejorar la relación con los clientes, permitiendo una atención más personalizada y cercana. Todo esto es posible gracias a la gestión de los contactos, diferenciación de los clientes, canalizar los servicios en un único medio, difusión mediante redes sociales etc... Con la información recaudada de los clientes, se facilita la toma de decisiones, ya que entre esta información se deben de encontrar opiniones, preferencias, reportes o valores relacionados con el número de veces que se ha adquirido un servicio, que en definitiva nos permite saber que funciona y que no. Esto nos permite saber por donde entrar para cerrar ventas o hacia donde enfocar las campañas de marketing, lo que nos conducirá a una mejora constante tanto de la empresa como del servicio o productos que ofrece.
 - **Ejemplos CRM más conocidos:**
+  	- Oracle Customer Experience
+  	- Pipedrive
+  	- Salesforce
 ## BI:
-- Definición y componentes:
+- Definición y componentes: "Business Intelligence" se trata de una serie de tecnologías cuyo único objetivo, y que comparten entre sí, es el de facilitar la dirección de una empresa para catapultarla al éxito. En sí "BI" no se trata de un Sistema de Gestión de Información, puesto que no es una plataforma unificada, si no que "BI" hace uso de distintos módulos o componentes indepentientes que nos permiten realizar las mismas tareas que haríamos con un sistema de gestión.
 - ETL:
 - Data WareHouse:
 - OLAP:
