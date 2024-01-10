@@ -234,8 +234,8 @@ Los CRM o "Customer Relationship Management" a diferencia de los ERP, no se apli
   	- Salesforce
 ## BI:
 - **Definición y componentes:** "Business Intelligence" se trata de una serie de tecnologías cuyo único objetivo, y que comparten entre sí, es el de facilitar la dirección de una empresa para catapultarla al éxito. En sí "BI" no se trata de un Sistema de Gestión de Información, puesto que no es una plataforma unificada, si no que "BI" hace uso de distintos módulos o componentes indepentientes que nos permiten realizar las mismas tareas que haríamos con un sistema de gestión.
-- **ETL:**
-- **Data WareHouse:**
-- **OLAP:**
-- **Data Minining:**
-- **Dashboard:**
+- **ETL:** "Extract, Transform and load" consiste en una serie de procesos que recaban información sobre las actividades diarias de la empresa para después procesarla y obtener datos de valor.
+- **Data WareHouse:** Como su propio nombre indica, se trata del almacén de datos de la empresa, al que se puede acudir para consultar los datos que posee para poder hacer una toma de decisiones correcta.
+- **OLAP:** " Online Analytical Processing" garantiza la disponibilidad de los datos almacenados en el Data Warehouse, los cuales emplearemos en el siguiente componente. Habitualmente se disponen estos datos como un cubo
+- **Data Minining:** Se analizan los datos del Data Warehouse en busca de patrones y comportamientos que nos ayuden a saber cuales son las tendencias de los clientes para poder dirigir la empresa hacia su objetivo.
+- **Dashboard:** Se trata de un proceso que habitualmente posee una GUI o interfaz gráfica que nos permite visualizar agrupaciones de los datos que precisemos, pudiendo llegar a tomar acción e interactuar con ellos.
