@@ -239,3 +239,20 @@ Los CRM o "Customer Relationship Management" a diferencia de los ERP, no se apli
 - **OLAP:** " Online Analytical Processing" garantiza la disponibilidad de los datos almacenados en el Data Warehouse, los cuales emplearemos en el siguiente componente. Habitualmente se disponen estos datos como un cubo
 - **Data Minining:** Se analizan los datos del Data Warehouse en busca de patrones y comportamientos que nos ayuden a saber cuales son las tendencias de los clientes para poder dirigir la empresa hacia su objetivo.
 - **Dashboard:** Se trata de un proceso que habitualmente posee una GUI o interfaz gráfica que nos permite visualizar agrupaciones de los datos que precisemos, pudiendo llegar a tomar acción e interactuar con ellos.
+
+# Actividad de cuaderno UD3
+## HTML y su evolución:
+## XHTML diferencias, ventajas y desventajas con respecto a HTML
+## Estructura de un documento HTML
+## Cabecera HTML
+- **Title**
+- **Meta**
+- **Style**
+- **Link**
+- **Script**
+## Cuerpo HTML
+### Elementos de Bloque
+### Elementos de Linea
+### Listas, tablas y Formularios
+### Elementos Multimedia para HTML5
+## Herramientas de edición y desarrollo web.
