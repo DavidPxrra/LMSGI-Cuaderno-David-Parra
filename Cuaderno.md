@@ -242,6 +242,7 @@ Los CRM o "Customer Relationship Management" a diferencia de los ERP, no se apli
 
 # Actividad de cuaderno UD3
 ## HTML y su evolución:
+La historia de HTML está ligada a la de la World Wide WEb, puesto que es el lenguaje de marcado utilizado desde el comienzo para la creación de páginas web, usadas para compartir documentos e información desde cualquier lugar, independientemente del medio gracias al protocolo de transferencia de hipertexto o "http", que permite acceder al contenido escrito en HTML. Se desarrolló en 1991, siendo el principal descendiente del lenguaje SGML junto con XML. Con el paso del tiempo se han ido liberando diferentes versiones, desde la primera actualización, html 1.1 en 1992, hasta hmtl 5.2 en 2017, agregando nuevas etiquetas, funcionalidades y aplicaciones, etc...
 ## XHTML diferencias, ventajas y desventajas con respecto a HTML
 ## Estructura de un documento HTML
 ## Cabecera HTML
