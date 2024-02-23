@@ -271,14 +271,14 @@ Estos elementos solo utilizan el espacio que ocupan, a diferencia de los element
 - **code**: muestra lineas de código de otros lenguajes pero sin que estas se ejecuten, siendo una especie de comentario.
 - **data**: asgina un valores al contenido.
 - **dfn**: adjunta una definición a un termino, con el fin de hacer que se entienda.
-- **Un largo etc.. que no me da tiempo a poner"
+- **Un largo etc.. que no me da tiempo a poner"**
 ### Listas, tablas y Formularios.
 Aunque se encuentran juntas, estas etiquetas cumplen funciones completamente distintas entre si, exactamente las que les dan nombre.
 - **Listas**: podemos crear 2 tipos de listas distintas; ordenadas con <ol> u desordenadas con <ul>. Las primeras son útiles cuando el contenido debe de seguir un orden, y las otras para cuando es irrelevante. Dentro de estas etiquetas los elementos se adjuntan con la etiqueta <li> para que pasen a formar parte de la lista.
 - **Tablas**: A parte de poder definir su tamaño, estilo etc.. con atributos, las tablas se crean de la siguiente manera:
-  Se abren con la etiqueta <table> y podemos designar las cabeceras de las columnas con <thead> poniendo dentro de esta 
-  etiqueta cada columna con <th>, y después el cuerpo de la tabla, con <tbody>, que a su vez incluyen las filas con <tr>, y 
-  dentro de cada fila el contenido propio de cada columna, incluyendo dentro de <tr> las etiquetas <td>.
+Se abren con la etiqueta <table> y podemos designar las cabeceras de las columnas con <thead> poniendo dentro de esta 
+etiqueta cada columna con <th>, y después el cuerpo de la tabla, con <tbody>, que a su vez incluyen las filas con <tr>, y 
+dentro de cada fila el contenido propio de cada columna, incluyendo dentro de "<tr>" las etiquetas "<td>."
 - **Formulaios**: Útiles para recabar información y enviarla al propietario de la página, se comienzan con la etiqueta <form>. Para cada campo del formulario vamos a añadir una etiqueta <label> con un atributo "for=""", que apunta al campo del formulario. Esto sirve para darle un titulo al campo y escribir que clase de información hay que introducir. Dentro de los formularios tenemos distintos tipos de <input> que son las etiquetas que permiten escribir el tipo de dato que se va a recopilar, haciendo uso del atributo "type". Tenemos tipos de campos como "email", "password", "text", etc... que sirven para lo dicho. Debemos de incluir dentro del <input> los atributos "id" para asociarlo con el "for" del label, un "name" para darle nombre y también podemos poner "required" si queremos que el campo sea obligatorio.
 ### Elementos Multimedia para HTML5
 ## Herramientas de edición y desarrollo web.
