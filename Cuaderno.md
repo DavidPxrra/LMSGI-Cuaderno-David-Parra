@@ -246,17 +246,23 @@ La historia de HTML está ligada a la de la World Wide WEb, puesto que es el len
 ## XHTML diferencias, ventajas y desventajas con respecto a HTML
 XHTML extiende HTML aplicando funcionalidades de XML, siguiendo las reglas de este como que las etiquetas deben de estar cerradas, bien posicionadas, en minúscula, etc... resultando esto en arma de doble filo, porque nos puede interesar usar un lenguaje restrictivo como es el caso, o querer algo más flexible como lo es HMTl. En general XHTMl es más moderno y compatible con otros metalenguajes y herramientas XML. En cuanto a desventajas, al ser más exigente en todos los sentidos, puede presentar problemas de compatibilidad con sistemas antiguos y también puede crear problemas de integración al ser más complejo. Tampoco está tan extendido como HTML5 y no es tan flexible como he mencionado.
 ## Estructura de un documento HTML
-Los documentos HMTL suelen seguir una misma estructura que consiste en el "Doctype" para definir el tipo de documento, una cabecera que contiene información variada, un cuerpo que alberga el contenido principal del documento y por último las etiqueta propias que permiten definir la estructura y el formato del documento. Más adelante veremos diferentes etiquetas y elementos de bloque que podemos usar para llevar nuestro documento a otro nivel en cuanto a orden y legibilidad.
+Los documentos HMTL suelen seguir una misma estructura que consiste en el "Doctype" para definir el tipo de documento, una cabecera que contiene información variada, un cuerpo que alberga el contenido principal del documento y por último las etiquetas propias que permiten definir la estructura y el formato del documento. Estas al igual que se abren (<html>) hay que cerrarlas (</html>) y pueden contener atributos dentro. Más adelante veremos diferentes etiquetas y elementos de bloque que podemos usar para llevar nuestro documento a otro nivel en cuanto a orden y legibilidad.
 ## Cabecera HTML
-Dentro de la cabecera podemos encontrar los siguientes elementos que aportan información sobre nuestro documento:
+Escrito con la etiqueta <head>, dentro de la cabecera podemos encontrar los siguientes elementos que aportan información sobre nuestro documento:
 - **Title**: Le da un titulo a nuestra página
 - **Meta**: Indica los metadatos del documento ``` <meta charset="UTF-8"> ``` 
 - **Style**: Define el estilo
 - **Link**: Sirve para enlazar nuestro documento a otro, por ejemeplo a un .css que que le daría formato a nuestro HTML.
 - **Script**: Agrega scripts que se ejecutan junto a nuestra página y que pueden aportar diferentes utilidades. Pueden estar escritos en distintos lenguajes, como por ejemplo JavaScript, útil para lograr una página interactiva y dinámica.
 ## Cuerpo HTML
-
+Se abre con <body>, encontrando dentro del cuerpo el contenido principal de nuestra web y que queremos compartir con el mundo. Podemos encontrar dentro del cuerpo títulos, indices, articulos, etc.. la mayoría de estos elementos definidos con los elementos de bloque que veremos a continuación.
 ### Elementos de Bloque
+Estos elementos ocupan un espacio inamovible y fijo dentro del documento, y se usan para estrcuturar el archivo, dande un "rol" a cada sección del documento. Entre ellos encontramos:
+- **El encabezado**: se abre con <header> y sirve principalmente para delimitar el inicio del documento con un título bien en grande haciendo uso de un "h1", para dar a entender de que va a ir la página o simplemente nombrarla.
+- **Navegación**: Crea un area de navegación desde la que se puede acceder al resto de secciones del documento. Suele usarse a modo de índice usando listas ordenadas "ol" u desordenadas "ul" con enlaces internos al resto del documento como iba diciendo, haciendo uso de "href" y asignando un "id" que identifique la sección. Se abre con <nav>
+- **Main**: Contiene el grueso de la página y el contenido en bruto. Dentro podemos dividir y clasificar su contenido en distintas secciones con "section", pudiendo incluir contenido independiente dentro de ellas con "article". Se abre con <main>.
+- **Aside**: Su etiqueta es la misma, y permite abrir una barra lateral con diferentes opciones o contenido adicional.
+- **Pie de página**: Se abre con <footer>, y como su propio nombre indica, añade el típico contenido que se añade al final de una página, como el año o el copyright. Este último podemos ponerlo con la entidad ``` &copy; ```.
 ### Elementos de Linea
 ### Listas, tablas y Formularios
 ### Elementos Multimedia para HTML5
