@@ -286,3 +286,21 @@ Dentro de nuestros documento HTML podemos agregar contenido multimedia haciendo 
 - **Mapas interactivos**: Consisten en una imagen con puntos precisos que despliegan información o enlaces al pasar sobre ellos y que pueden contar con distintos factores de forma. Para lograr esto subimos una imagen con la etiqueta scr con dentro el atributo "src" y la ruta relativa de la imagen, además de el atributo "usemap="nombredelmapa" para indicarle la imagen que mapa va a usar. Ahora escribiremos la etiqueta map, donde dentro agregaremos etiquetas area, que definirán los puntos de interés en el mapa. Entre los atributos de esta destacan; "shape" para seleccionar la forma del punto (rect, poly, circle), "coords" que indican en que coordenadas de la imagen se van a ubicar los puntos, "href" para incluir enlaces y "alt" para nombrar el punto. Debemos de incluir el atributo name="nombredelmapa" dentro de map para que el atributo "usemap" de la imagen lo tenga en cuenta.
 ## Herramientas de edición y desarrollo web.
 Podemos encontrar muchas herramientas con este proposito, desde IDES como Eclipse o Vistual Studio Code hasta programas para crear web estáticas haciendo uso de markdown como Blask o Mkdocs o incluso herramientas como GitHub pages para alojar nuestras páginas y poder visitarlas, pudiendo llegar a adquirir nuestro propio dominio.
+
+# Actividad de cuaderno UD4
+## ¿Qué es CSS?
+CSS es un lenguaje de marcado indispensable hoy en dia para crear páginas webs bien estructuradas y atractivas. Funciona sobre HTML, aplicandole estilos a los elementos definidos en este. CSS significa Cascade Style Sheets, haciendo referencia a la manera en la que el navegador procesa los estilos para aplicarlos.
+## Versiones de CSS
+CSS se creó en 1996, por los mismos desarrolladores de HTML y XML, la W3C que a dia de hoy sigue manteniendolo hasta su última versión CSS3. Esta versión lanzada en 2012 se compone de módulos, por lo que no se esperan proximas versiones ya que las nuevas implementaciones y funcionalidades vendrán de esta manera, pudiendo decidir si queremos aplicarlas o no. Sin embargo, la versión anterior CSS2.2 (2011) sigue en pié corrigiendo errores de CSS2 (1998), la cual ya no soporta W3C al igual que la primera versión de 1996 CSS1.
+## ¿Como se agrega CSS a un documento HTML?
+## Selectores CSS 
+### Pseudoclases
+### Pseudoelementos
+## Tipos de datos y unidades en CSS
+## Propiedades CSS
+- Modelo de cajas
+- Flex y Grid
+- Float y position
+- Propiedades de texto
+- Propiedades de listas
+- Diseño adaptativo (Media Queries)
