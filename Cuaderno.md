@@ -313,9 +313,9 @@ Ademas podemos combinar estos selectores y realizar agrupaciones con ellos:
 - Hermanos: Combina a todos los elementos situados en el mismo punto dentro de la jerarquia del documento a partir de el primer elemento. Se crean así "A~B"
 - Hijos: Elementos y aquellos en su interior, se usa ">"
 - Hermanos adyacentes: Funciona al igual que los hermanos, salvo porque solo tiene en cuenta al primero que aparezca tras el elemento seleccionado. Se utliza el signo "+"
-- Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas: ul li
+- Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas: ```ul li```
 ### Pseudoclases
-Las pseudoclases son variables de los selectores que hacen que solo se apliquen los cambios a los elementos cuando estos pasen a un estado en concreto. Estas pseudoclases se agregan a los selectores añadiendo un ":NombrePseudoclase" tras ellos: ```h1:hover{color: orange;} /*Esto hace que se ponga de color naranja el texto de los encabezados h1 cuando pasamos el ratón por encima suyo */```
+Las pseudoclases son variables de los selectores que hacen que solo se apliquen los cambios a los elementos cuando estos pasen a un estado en concreto. Estas pseudoclases se agregan a los selectores añadiendo un :NombrePseudoclase tras ellos: ```h1:hover{color: orange;}```
 Aquí una serie de pseudoclases y sus efectos:
 - 
 ### Pseudoelementos
