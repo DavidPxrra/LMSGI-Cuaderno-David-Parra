@@ -293,7 +293,13 @@ CSS es un lenguaje de marcado indispensable hoy en dia para crear páginas webs 
 ## Versiones de CSS
 CSS se creó en 1996, por los mismos desarrolladores de HTML y XML, la W3C que a dia de hoy sigue manteniendolo hasta su última versión CSS3. Esta versión lanzada en 2012 se compone de módulos, por lo que no se esperan proximas versiones ya que las nuevas implementaciones y funcionalidades vendrán de esta manera, pudiendo decidir si queremos aplicarlas o no. Sin embargo, la versión anterior CSS2.2 (2011) sigue en pié corrigiendo errores de CSS2 (1998), la cual ya no soporta W3C al igual que la primera versión de 1996 CSS1.
 ## ¿Como se agrega CSS a un documento HTML?
+Podemos agregar CSS a un documento HTML de 3 maneras distintas. 
+- La primera de ellas es mediante un documento externo que enlazaremos al HTML con la etiqueta "link" y el atributo "href" que referencia al CSS: ```<link rel=”stylesheet” href=”estilos.css” >```
+- La segunda opción es a modo de elemento dentro del HTML con la etiqueta "style" la cual contendrá todo el código CSS: ```<style> h1 {font-family: Lato} </style>```
+- la tercera y última opción es a modo de atributo dentro de un elemento para darle estilo a este. El atributo usado se llama "style" respectivamente. ```<p style="color:lightgreen">Ejemplo</p>```
+Los cambios al aplicarse en forma de cascada, se puede definir el peso y prioridad de cada estilo para que se procese como queramos. Si utilizamos la orden "!Important" le daremos la prioridad máxima al archivo, pero si no lo hacemos la prioridad se definirá mediante el origen (procesa después los estilos del nvegador), cuanto más especifico mayor importancia, además de que los ultimos estilos en leerse se procesarán antes en la mayoría de los casos puesto que son los más recientes en haberse escrtio por lo que son los más actuales.
 ## Selectores CSS 
+Los selectores en CSS son aquellas reglas que se utilizan para seleccionar a que partes del HTML queremos aplicar los estilos. Existen los siguientes tipos en base al nivel de agrupación de los componentes del HTML
 ### Pseudoclases
 ### Pseudoelementos
 ## Tipos de datos y unidades en CSS
