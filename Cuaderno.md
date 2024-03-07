@@ -295,11 +295,25 @@ CSS se creó en 1996, por los mismos desarrolladores de HTML y XML, la W3C que a
 ## ¿Como se agrega CSS a un documento HTML?
 Podemos agregar CSS a un documento HTML de 3 maneras distintas. 
 - La primera de ellas es mediante un documento externo que enlazaremos al HTML con la etiqueta "link" y el atributo "href" que referencia al CSS: ```<link rel=”stylesheet” href=”estilos.css” >```
-- La segunda opción es a modo de elemento dentro del HTML con la etiqueta "style" la cual contendrá todo el código CSS: ```<style> h1 {font-family: Lato} </style>```
+- La segunda opción es a modo de elemento dentro del HTML con la etiqueta "style" la cual contendrá todo el código CSS: ```<style> h1 {font-family: Lato;} </style>```
 - la tercera y última opción es a modo de atributo dentro de un elemento para darle estilo a este. El atributo usado se llama "style" respectivamente. ```<p style="color:lightgreen">Ejemplo</p>```
 Los cambios al aplicarse en forma de cascada, se puede definir el peso y prioridad de cada estilo para que se procese como queramos. Si utilizamos la orden "!Important" le daremos la prioridad máxima al archivo, pero si no lo hacemos la prioridad se definirá mediante el origen (procesa después los estilos del nvegador), cuanto más especifico mayor importancia, además de que los ultimos estilos en leerse se procesarán antes en la mayoría de los casos puesto que son los más recientes en haberse escrtio por lo que son los más actuales.
 ## Selectores CSS 
-Los selectores en CSS son aquellas reglas que se utilizan para seleccionar a que partes del HTML queremos aplicar los estilos. Existen los siguientes tipos en base al nivel de agrupación de los componentes del HTML
+Los selectores en CSS son aquellas reglas que se utilizan para seleccionar a que partes del HTML queremos aplicar los estilos. Existen los siguientes tipos en base al nivel de agrupación de los componentes del HTML:
+- Universal: Se le aplica a todos los elementos dentro del documento HTML haciendo uso de "*": ```* {
+    font-size: 12;
+} ```
+- Tipo: Los estilos se aplican solo al tipo de elemento seleccionado: ```h1 {font-family: Arial}```
+- Clase: Los estilos se aplican a las clases designadas mediante el atributo "class" dentro del HTML: ```<p class="prueba">Ejemplo</p>``` Código del CSS para la clase "prueba": ```.prueba {color: blue;}```
+- Identificador: EStilo aplicado a aquellos elementos con un "ID" específico: HTML ```<section id="id1">``` CSS ```#id1 {color: yellow;}```
+- Atributo: Se aplica a los tipos de atributos especificados: ```input[type="text"]{padding: 10px 10px;}```
+Ademas podemos combinar estos selectores y realizar agrupaciones con ellos:
+- Agrupaciones: Las reglas se aplicarán a todos estos tipos de elementos o clases: h1,h2,p
+- Combinaciones: Los cambios se aplicarán únicamente a combianes específicas que tienen que darse para que se apliquen. Es una especie de condición. Podemos encontrar esta serie de combinaciones básicas:
+- Hermanos: Combina a todos los elementos situados en el mismo punto dentro de la jerarquia del documento a partir de el primer elemento. Se crean así "A~B"
+- Hijos: Elementos y aquellos en su interior, se usa ">"
+- Hermanos adyacentes: Funciona al igual que los hermanos, salvo porque solo tiene en cuenta al primero que aparezca tras el elemento seleccionado. Se utliza el signo "+"
+- Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas: ul li
 ### Pseudoclases
 ### Pseudoelementos
 ## Tipos de datos y unidades en CSS
