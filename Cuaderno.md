@@ -310,10 +310,10 @@ Los selectores en CSS son aquellas reglas que se utilizan para seleccionar a que
 Ademas podemos combinar estos selectores y realizar agrupaciones con ellos:
 - **Agrupaciones**: Las reglas se aplicarán a todos estos tipos de elementos o clases: h1,h2,p
 - **Combinaciones**: Los cambios se aplicarán únicamente a combianes específicas que tienen que darse para que se apliquen. Es una especie de condición. Podemos encontrar esta serie de combinaciones básicas:
-- Hermanos: Combina a todos los elementos situados en el mismo punto dentro de la jerarquia del documento a partir de el primer elemento. Se crean así "A~B"
-- Hijos: Elementos y aquellos en su interior, se usa ">"
-- Hermanos adyacentes: Funciona al igual que los hermanos, salvo porque solo tiene en cuenta al primero que aparezca tras el elemento seleccionado. Se utliza el signo "+"
-- Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas "ul li"
+ - Hermanos: Combina a todos los elementos situados en el mismo punto dentro de la jerarquia del documento a partir de el primer elemento. Se crean así "A~B"
+ - Hijos: Elementos y aquellos en su interior, se usa ">"
+ - Hermanos adyacentes: Funciona al igual que los hermanos, salvo porque solo tiene en cuenta al primero que aparezca tras el elemento seleccionado. Se utliza el signo "+"
+ - Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas "ul li"
 ### Pseudoclases
 Las pseudoclases son variables de los selectores que hacen que solo se apliquen los cambios a los elementos cuando estos pasen a un estado en concreto. Estas pseudoclases se agregan a los selectores añadiendo un :NombrePseudoclase tras ellos: ```h1:hover{color: orange;}``` Aquí una serie de pseudoclases y sus efectos:
 - active: cuando el elemento está activo
@@ -336,7 +336,8 @@ Dentro de CSS podemos identificar distintos tipos de datos. Esta clasificación 
 - Dimensión: un número junto a su "medida": deg (grados), s (segundos), px (píxeles)
 - Porcentaje: Un número que indica un porcentaje haciendo uso de "%"
 - Colores: se pueden indicar los más comunes con su nombre (blue, red) o mediante su identificador rgb, hexadecimal o HSL
-Las unidades también pueden clasificarse como absolutas:
+
+ Las unidades también pueden clasificarse como absolutas:
 - px: píxeles
 - cm: centímetros
 - mm: milímetros
@@ -344,6 +345,7 @@ Las unidades también pueden clasificarse como absolutas:
 - in: pulgadas
 - pt puntos (1/72 pulgadas)
 - pc: picas (1/16 pulgadas)
+
 O como relativas:
 - em: tamaño de la letra del elemento padre
 - ex: altura de la fuente del elemento
@@ -355,8 +357,9 @@ O como relativas:
 - vmin: 1% de la dimensión más pequeña de la ventana gráfica.
 - vmax: 1% de la dimensión más grande de la ventana gráfica
 ## Propiedades CSS
-CSS 
-- Modelo de cajas
+CSS posee una serie de reglas, como todos los lenguajes de marcado, para definir así como se debe de estructurar la hoja de estilos. Algunas de las propiedades que más debemos de tener en cuenta son:
+- Modelo de cajas: Se encarga del orden de los marcos y formato del bloque del contenido, como si de una caja por capas se tratase. Sus principales características son:
+  - 
 - Flex y Grid
 - Float y position
 - Propiedades de texto
