@@ -300,27 +300,27 @@ Podemos agregar CSS a un documento HTML de 3 maneras distintas.
 Los cambios al aplicarse en forma de cascada, se puede definir el peso y prioridad de cada estilo para que se procese como queramos. Si utilizamos la orden "!Important" le daremos la prioridad máxima al archivo, pero si no lo hacemos la prioridad se definirá mediante el origen (procesa después los estilos del nvegador), cuanto más especifico mayor importancia, además de que los ultimos estilos en leerse se procesarán antes en la mayoría de los casos puesto que son los más recientes en haberse escrtio por lo que son los más actuales.
 ## Selectores CSS 
 Los selectores en CSS son aquellas reglas que se utilizan para seleccionar a que partes del HTML queremos aplicar los estilos. Existen los siguientes tipos en base al nivel de agrupación de los componentes del HTML:
-- Universal: Se le aplica a todos los elementos dentro del documento HTML haciendo uso de "*": ```* {
+- **Universal**: Se le aplica a todos los elementos dentro del documento HTML haciendo uso de "*": ```* {
     font-size: 12;
 } ```
-- Tipo: Los estilos se aplican solo al tipo de elemento seleccionado: ```h1 {font-family: Arial}```
-- Clase: Los estilos se aplican a las clases designadas mediante el atributo "class" dentro del HTML: ```<p class="prueba">Ejemplo</p>``` Código del CSS para la clase "prueba": ```.prueba {color: blue;}```
-- Identificador: EStilo aplicado a aquellos elementos con un "ID" específico: HTML ```<section id="id1">``` CSS ```#id1 {color: yellow;}```
-- Atributo: Se aplica a los tipos de atributos especificados: ```input[type="text"]{padding: 10px 10px;}```
+- **Tipo**: Los estilos se aplican solo al tipo de elemento seleccionado: ```h1 {font-family: Arial}```
+- **Clase**: Los estilos se aplican a las clases designadas mediante el atributo "class" dentro del HTML: ```<p class="prueba">Ejemplo</p>``` Código del CSS para la clase "prueba": ```.prueba {color: blue;}```
+- **Identificador**: EStilo aplicado a aquellos elementos con un "ID" específico: HTML ```<section id="id1">``` CSS ```#id1 {color: yellow;}```
+- **Atributo**: Se aplica a los tipos de atributos especificados: ```input[type="text"]{padding: 10px 10px;}```
 Ademas podemos combinar estos selectores y realizar agrupaciones con ellos:
-- Agrupaciones: Las reglas se aplicarán a todos estos tipos de elementos o clases: h1,h2,p
-- Combinaciones: Los cambios se aplicarán únicamente a combianes específicas que tienen que darse para que se apliquen. Es una especie de condición. Podemos encontrar esta serie de combinaciones básicas:
+- **Agrupaciones**: Las reglas se aplicarán a todos estos tipos de elementos o clases: h1,h2,p
+- **Combinaciones**: Los cambios se aplicarán únicamente a combianes específicas que tienen que darse para que se apliquen. Es una especie de condición. Podemos encontrar esta serie de combinaciones básicas:
 - Hermanos: Combina a todos los elementos situados en el mismo punto dentro de la jerarquia del documento a partir de el primer elemento. Se crean así "A~B"
 - Hijos: Elementos y aquellos en su interior, se usa ">"
 - Hermanos adyacentes: Funciona al igual que los hermanos, salvo porque solo tiene en cuenta al primero que aparezca tras el elemento seleccionado. Se utliza el signo "+"
 - Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas "ul li"
 ### Pseudoclases
 Las pseudoclases son variables de los selectores que hacen que solo se apliquen los cambios a los elementos cuando estos pasen a un estado en concreto. Estas pseudoclases se agregan a los selectores añadiendo un :NombrePseudoclase tras ellos: ```h1:hover{color: orange;}``` Aquí una serie de pseudoclases y sus efectos:
-	- active: cuando el elemento está activo
- 	- checked: cuando hemos marcado un checkbox o casilla
-  	- disabled: cuando el elemento no está activo
-   	- focus: cuando nos centramos en el elemento
-    	- visited: cuando existe un enlace y ya lo hemos visitado.
+- active: cuando el elemento está activo
+- checked: cuando hemos marcado un checkbox o casilla
+- disabled: cuando el elemento no está activo
+- focus: cuando nos centramos en el elemento
+- visited: cuando existe un enlace y ya lo hemos visitado.
 ### Pseudoelementos
 Se tratan de características adicionales de CSS que se aplican a partes específicas de los elementos del HTML si influir realmente en ellos, como puede ser la primera letra o linea, etc... Aquí una breve lista de pseudoelementos:
 	- after: se aplican después del elemento
@@ -330,7 +330,32 @@ Se tratan de características adicionales de CSS que se aplican a partes especí
     	- selection: cuando se selecciona parte del texto.
      La sintáxis es la misma que la de las pseudoclases.
 ## Tipos de datos y unidades en CSS
+Dentro de CSS podemos identificar distintos tipos de datos. Esta clasificación nos permite tener una idea más clara sobre como queremos estilizar nuestro documento según el tipo de dato. Los principales y más comunes son:
+- Entero: Se tratan de número sin decimales, que bien pueden ser positivos o negativos
+- Número: incluyen decimales
+- Dimensión: un número junto a su "medida": deg (grados), s (segundos), px (píxeles)
+- Porcentaje: Un número que indica un porcentaje haciendo uso de "%"
+- Colores: se pueden indicar los más comunes con su nombre (blue, red) o mediante su identificador rgb, hexadecimal o HSL
+Las unidades también pueden clasificarse como absolutas:
+- px: píxeles
+- cm: centímetros
+- mm: milímetros
+- Q: Cuarto de milímetro
+- in: pulgadas
+- pt puntos (1/72 pulgadas)
+- pc: picas (1/16 pulgadas)
+O como relativas:
+- em: tamaño de la letra del elemento padre
+- ex: altura de la fuente del elemento
+- ch: anchura de las letras
+- rem: tamaño de la letra del elemento raiz o inicial
+- lh: Altura de la linea del elemento
+- vw: 1% del ancho de ventana gráfica.
+- vh: 1% del alto de la ventana gráfica.
+- vmin: 1% de la dimensión más pequeña de la ventana gráfica.
+- vmax: 1% de la dimensión más grande de la ventana gráfica
 ## Propiedades CSS
+CSS 
 - Modelo de cajas
 - Flex y Grid
 - Float y position
