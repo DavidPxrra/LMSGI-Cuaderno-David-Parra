@@ -313,12 +313,22 @@ Ademas podemos combinar estos selectores y realizar agrupaciones con ellos:
 - Hermanos: Combina a todos los elementos situados en el mismo punto dentro de la jerarquia del documento a partir de el primer elemento. Se crean así "A~B"
 - Hijos: Elementos y aquellos en su interior, se usa ">"
 - Hermanos adyacentes: Funciona al igual que los hermanos, salvo porque solo tiene en cuenta al primero que aparezca tras el elemento seleccionado. Se utliza el signo "+"
-- Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas: ```ul li```
+- Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas "ul li"
 ### Pseudoclases
-Las pseudoclases son variables de los selectores que hacen que solo se apliquen los cambios a los elementos cuando estos pasen a un estado en concreto. Estas pseudoclases se agregan a los selectores añadiendo un :NombrePseudoclase tras ellos: ```h1:hover{color: orange;}```
-Aquí una serie de pseudoclases y sus efectos:
-- 
+Las pseudoclases son variables de los selectores que hacen que solo se apliquen los cambios a los elementos cuando estos pasen a un estado en concreto. Estas pseudoclases se agregan a los selectores añadiendo un :NombrePseudoclase tras ellos: ```h1:hover{color: orange;}``` Aquí una serie de pseudoclases y sus efectos:
+	- active: cuando el elemento está activo
+ 	- checked: cuando hemos marcado un checkbox o casilla
+  	- disabled: cuando el elemento no está activo
+   	- focus: cuando nos centramos en el elemento
+    	- visited: cuando existe un enlace y ya lo hemos visitado.
 ### Pseudoelementos
+Se tratan de características adicionales de CSS que se aplican a partes específicas de los elementos del HTML si influir realmente en ellos, como puede ser la primera letra o linea, etc... Aquí una breve lista de pseudoelementos:
+	- after: se aplican después del elemento
+ 	- before: justo antes del elemento
+  	- first-letter: primera letra del texto
+   	- first-line: se aplica a toda la primera linea del texto
+    	- selection: cuando se selecciona parte del texto.
+     La sintáxis es la misma que la de las pseudoclases.
 ## Tipos de datos y unidades en CSS
 ## Propiedades CSS
 - Modelo de cajas
