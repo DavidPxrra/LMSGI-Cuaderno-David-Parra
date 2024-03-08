@@ -310,10 +310,10 @@ Los selectores en CSS son aquellas reglas que se utilizan para seleccionar a que
 Ademas podemos combinar estos selectores y realizar agrupaciones con ellos:
 - **Agrupaciones**: Las reglas se aplicarán a todos estos tipos de elementos o clases: h1,h2,p
 - **Combinaciones**: Los cambios se aplicarán únicamente a combianes específicas que tienen que darse para que se apliquen. Es una especie de condición. Podemos encontrar esta serie de combinaciones básicas:
- - Hermanos: Combina a todos los elementos situados en el mismo punto dentro de la jerarquia del documento a partir de el primer elemento. Se crean así "A~B"
- - Hijos: Elementos y aquellos en su interior, se usa ">"
- - Hermanos adyacentes: Funciona al igual que los hermanos, salvo porque solo tiene en cuenta al primero que aparezca tras el elemento seleccionado. Se utliza el signo "+"
- - Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas "ul li"
+  - Hermanos: Combina a todos los elementos situados en el mismo punto dentro de la jerarquia del documento a partir de el primer elemento. Se crean así "A~B"
+  - Hijos: Elementos y aquellos en su interior, se usa ">"
+  - Hermanos adyacentes: Funciona al igual que los hermanos, salvo porque solo tiene en cuenta al primero que aparezca tras el elemento seleccionado. Se utliza el signo "+"
+  - Descendentes: Combina los elementos que descienden en otros dentro de un contenedor como puede ocurrir en las listas "ul li"
 ### Pseudoclases
 Las pseudoclases son variables de los selectores que hacen que solo se apliquen los cambios a los elementos cuando estos pasen a un estado en concreto. Estas pseudoclases se agregan a los selectores añadiendo un :NombrePseudoclase tras ellos: ```h1:hover{color: orange;}``` Aquí una serie de pseudoclases y sus efectos:
 - active: cuando el elemento está activo
@@ -323,12 +323,12 @@ Las pseudoclases son variables de los selectores que hacen que solo se apliquen 
 - visited: cuando existe un enlace y ya lo hemos visitado.
 ### Pseudoelementos
 Se tratan de características adicionales de CSS que se aplican a partes específicas de los elementos del HTML si influir realmente en ellos, como puede ser la primera letra o linea, etc... Aquí una breve lista de pseudoelementos:
-	- after: se aplican después del elemento
- 	- before: justo antes del elemento
-  	- first-letter: primera letra del texto
-   	- first-line: se aplica a toda la primera linea del texto
-    	- selection: cuando se selecciona parte del texto.
-     La sintáxis es la misma que la de las pseudoclases.
+ - after: se aplican después del elemento
+ - before: justo antes del elemento
+ - first-letter: primera letra del texto
+ - first-line: se aplica a toda la primera linea del texto
+ - selection: cuando se selecciona parte del texto.
+   La sintáxis es la misma que la de las pseudoclases.
 ## Tipos de datos y unidades en CSS
 Dentro de CSS podemos identificar distintos tipos de datos. Esta clasificación nos permite tener una idea más clara sobre como queremos estilizar nuestro documento según el tipo de dato. Los principales y más comunes son:
 - Entero: Se tratan de número sin decimales, que bien pueden ser positivos o negativos
@@ -359,9 +359,32 @@ O como relativas:
 ## Propiedades CSS
 CSS posee una serie de reglas, como todos los lenguajes de marcado, para definir así como se debe de estructurar la hoja de estilos. Algunas de las propiedades que más debemos de tener en cuenta son:
 - Modelo de cajas: Se encarga del orden de los marcos y formato del bloque del contenido, como si de una caja por capas se tratase. Sus principales características son:
-  - 
-- Flex y Grid
-- Float y position
-- Propiedades de texto
-- Propiedades de listas
-- Diseño adaptativo (Media Queries)
+  - Margen exterior: Zona exterior que rodea el resto de elementos. Se escribe marca con "margin"
+  - Margen interior: Se escribe con la propiedad "padding" y constituye el espacio en blanco entre el contenido y el borde
+  - Borde: Contiene distintos colores y rellenos sobre el límite del elemento. Propiedad "border"
+  - Contorno: "outline", linea dibujada sobre el elemento pero sin invadirlo.
+  - Ancho: anchura del elemento, propiedad "width"
+  - Alto: alto del elemento, propiedad "height"
+- Flex y Grid: son 2 propiedades del display que definen como se mostrarán los elementos. Como "flex" se establecerá como un bloque que fluye en x dirección mediante la propiedad "flex-direction". Mientras tanto, "grid" mostrará los elementos de forma cuadriculada pero en bloque, como si de una tabla se tratase, mediante la propiedad "grid-template-columns" delimitando las dimensiones
+- Float y position: Float indica la posición desde la que aparecen los elementos y su respectivo contenido, con la etiqueta "float" y haciendo uso de los valores left (elemento a la izquierda), right (elemento a la derecha), none (no desplaza el elemento), inherit (hereda el float del elemento padre). Si la posición del elemento no está indicada por el contenedor lo haremos con "position".
+  - static: valor por defecto
+  - relative: posición relativa al elemento
+  - absolute: posición absoluta con respecto al resto del documento
+  - fixed: sigue el flujo del documento
+  - sticky: sigue el flujo normal, pero se puede establecer límites en cuanto a su posición.
+- Propiedades de texto: podemos darle formato al texto con las siguientes propiedades:
+  - color: color del texto
+  - font-family: fuente del texto.
+  - font-size: tamaño de la fuente
+  - font-weight: grosor de la fuente
+  - text-align: alineación del texto: right, center o justify.
+  - letter_spacing: espaciado entre caracteres.
+- Propiedades de listas: podemos darle propiedades a las listas como cambiar sus viñetas etc... :
+  - list-style-type: cambia el icono de la viñeta; circle, square, decimal, etc...
+  - list-style-position: establece la posición de las viñetas como dentro o fuera; inside; outside.
+  - list-style-image: podemos hacer que las viñetas sean imágenes si aportamos el enlace de estas.
+- Diseño adaptativo (Media Queries): Sirven para hacer que el contenido se adapte según el tipo de dispositivo que lo procese de manera automática, adaptandose a la resolución, tamaño de la pantalla, etc... Podemos usar una serie de reglas para adaptar el CSS a las distintas dimensiones del dispositivo, haciendo por ejemplo: ```@media screen and (min-width: 480px) {
+ body {
+ background-color: lightgreen;
+ }
+}```
