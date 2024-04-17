@@ -388,3 +388,17 @@ CSS posee una serie de reglas, como todos los lenguajes de marcado, para definir
  background-color: lightgreen;
  }
 }```
+
+# Actividad de cuaderno UD5
+## Sindicación de contenidos en la web
+## Sindicación de contenidos
+## RSS
+### Sinntáxis de RSS
+### Ejemplo de RSS
+## Atom
+### Sinntáxis de Atom
+### Ejemplo de Atom
+## Herramientas de validación de canales de sindicación.
+## Añadir canales de sindicación a una web
+## Agregadores de canales
+## Canales de sindicación
