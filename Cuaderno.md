@@ -419,8 +419,22 @@ Usaré como ejemplo los ejercicos hechos en este tema sin ir más lejos:
 ## Atom
 Atom también está basado en XML y mantenido por W3C al igual que RSS, cuyos archivos usan la extensión .xml o .atom. Aunque tienen bastantes similitudes, Atom es ligeramente más complejo, lo que lo vuelve más flexible gracias a diversas extensiones que lo personalizan, además de contar con control de versiones, funcionalidades para los metadatos, etc... La última versión de Atom se lanzó en 2005.
 ### Sinntáxis de Atom
-La sintáxis de Atom comienza con la versión de XML, seguido del elemento "feed" junto al atributo que lo enlaza a W3C y desde el que se carga el resto del documento. Dentro de "feed" incluiremos las distintas entradas con "entry", donde cada una incluirá una
+La sintáxis de Atom comienza con la versión de XML, seguido del elemento "feed" junto al atributo que lo enlaza a W3C y desde el que se carga el resto del documento. Dentro de "feed" incluiremos las distintas entradas con "entry", donde cada una incluirá una serie de etiquetas muy parecidas a las de RSS para indicar la información. La descripción en este caso se pone con "summary" y las entradas han de contar con un "id". 
 ### Ejemplo de Atom
+```
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+    
+  <entry>
+    <title>Ofertas de Primavera en “Apruebo Porque Sí”</title>
+    <link href="https://ejemplo.com/ofertasprimavera" />
+    <id>https://ejemplo.com/ofertasprimavera</id>
+    <updated>2024-04-10T12:00:00Z</updated>
+    <summary>E aquí nuestra oferta formativa para primavera 2k24!!</summary>
+  </entry>
+</feed>
+```
 ## Herramientas de validación de canales de sindicación.
 ## Añadir canales de sindicación a una web
 ## Agregadores de canales
