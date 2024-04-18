@@ -440,4 +440,5 @@ Al igual que XML contaba con validadores como DTD o XML Schema para definir su e
 ## Añadir canales de sindicación a una web
 Como hemos comentado anteriormente, la web debe de incorporar el código del sindicador de contenidos para que los usuarios puedan comenzar a usar los canales de difusión. Esto se puede lograr de distintas maneras, aunque las más aceptada es enlazando el documento con el html con la etiqueta "link" dentro de la cabecera. También se puede incluir el enlace dentro de la etiqueta "a" con un "href", usado habitualmente en una foto sobre la que pinchan los usuarios.
 ## Agregadores de canales
+Existen aplicaciones webs que nos ayudan a seguir de cerca los contenidos que nos interesan de diversas fuentes de forma centralizada haciendo uso de los enlaces al código del sindicador de la web. Estas funcionan como un panel, en el que añadimos las canales de difusión como comentábamos, y donde podemos clasificarlos y leerlos desde ahí. Existen soluciones en linea, locales o incluso como extensiones de nuestro navegador.
 ## Canales de sindicación
