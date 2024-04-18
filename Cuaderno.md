@@ -391,7 +391,7 @@ CSS posee una serie de reglas, como todos los lenguajes de marcado, para definir
 
 # Actividad de cuaderno UD5
 ## Sindicación de contenidos en la web
-La sindicación de contenidos consiste en la utilización de herramientas que permiten a los usuarios seguir de cerca las últimas noticias de las webs que les interesan sin tener que visitarlas directamente, y a las webs crear estos "canales de difusión" para que los usuarios estén actualizados constantemente y recibir más atención. De cara a la web, estas han de proveer un código que puede estar escritos en distintos lenguajes de marcado, como RSS o Atom, los cuales veremos más adelante. El enlace de este código es el que los usuarios usarán para suscribirse al "boletíin", y que pueden encontrarlo habitualmente en el apartado de las redes sociales de la web al final de esta, insertado sobre el icono del sistema de sindicación utilizado.
+La sindicación de contenidos consiste en la utilización de herramientas que permiten a los usuarios seguir de cerca las últimas noticias de las webs que les interesan sin tener que visitarlas directamente, y a las webs crear estos "canales de difusión" para que los usuarios estén actualizados constantemente y recibir más atención. De cara a la web, estas han de proveer un código que puede estar escrito en distintos lenguajes de marcado, como RSS o Atom, los cuales veremos más adelante. El enlace de este código es el que los usuarios usarán para suscribirse al "boletíin", y que pueden encontrarlo habitualmente en el apartado de las redes sociales de la web al final de esta, insertado sobre el icono del sistema de sindicación utilizado.
 ## Sindicación de contenidos
 Como usuarios, y teniendo en posesión el enlace del que hablabamos, podemos usar distintas aplicaciones web que nos permitan hacer uso de el, y poder seguir las noticias de la página que nos interese, y en caso de ser varias, a mantenerlas organizadas y catalogadas, para tener la información siempre disponible. La mayoría de estas aplicaciones funcionan insertando el enlace o código de la web en ellas, y posteriormente guardándolo y desplegando las noticias como si estuviéramos visitando la página en cuestión. Algunos ejemplos de estos programas son los vistos en clase "Feedly" como aplicación web o "Tiny Tiny RSS" a modo de localhost.
 ## RSS
@@ -436,6 +436,8 @@ La sintáxis de Atom comienza con la versión de XML, seguido del elemento "feed
 </feed>
 ```
 ## Herramientas de validación de canales de sindicación.
+Al igual que XML contaba con validadores como DTD o XML Schema para definir su estructura, y diversas opciones para ver si el documento funcionaba correctamente, los canales de sindicación tienen los suyos propios. El mejor que podemos utilizar para Atom y RSS es el de la misma entidad que los mantiene, el de la W3C. Este validador nos indicará que debemos de corregir para que pueda validarse y funcionar adecuadamente.
 ## Añadir canales de sindicación a una web
+Como hemos comentado anteriormente, la web debe de incorporar el código del sindicador de contenidos para que los usuarios puedan comenzar a usar los canales de difusión. Esto se puede lograr de distintas maneras, aunque las más aceptada es enlazando el documento con el html con la etiqueta "link" dentro de la cabecera. También se puede incluir el enlace dentro de la etiqueta "a" con un "href", usado habitualmente en una foto sobre la que pinchan los usuarios.
 ## Agregadores de canales
 ## Canales de sindicación
