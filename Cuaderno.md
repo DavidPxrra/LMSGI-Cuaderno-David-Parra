@@ -442,3 +442,7 @@ Como hemos comentado anteriormente, la web debe de incorporar el código del sin
 ## Agregadores de canales
 Existen aplicaciones webs que nos ayudan a seguir de cerca los contenidos que nos interesan de diversas fuentes de forma centralizada haciendo uso de los enlaces al código del sindicador de la web. Estas funcionan como un panel, en el que añadimos las canales de difusión como comentábamos, y donde podemos clasificarlos y leerlos desde ahí. Existen soluciones en linea, locales o incluso como extensiones de nuestro navegador.
 ## Canales de sindicación
+Aquí una serie de ejemplos de canales de sindicación:
+- Xataca: https://www.xataka.com/index.xml
+- El País: https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada
+- National Geographic: https://www.nationalgeographic.com.es/feeds/rss.html
