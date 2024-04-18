@@ -395,9 +395,29 @@ La sindicación de contenidos consiste en la utilización de herramientas que pe
 ## Sindicación de contenidos
 Como usuarios, y teniendo en posesión el enlace del que hablabamos, podemos usar distintas aplicaciones web que nos permitan hacer uso de el, y poder seguir las noticias de la página que nos interese, y en caso de ser varias, a mantenerlas organizadas y catalogadas, para tener la información siempre disponible. La mayoría de estas aplicaciones funcionan insertando el enlace o código de la web en ellas, y posteriormente guardándolo y desplegando las noticias como si estuviéramos visitando la página en cuestión. Algunos ejemplos de estos programas son los vistos en clase "Feedly" como aplicación web o "Tiny Tiny RSS" a modo de localhost.
 ## RSS
+Por sus siglas "Really Simple Syndication" se trata de sindicador de contenidos mantenido por la W3C y basado en XML, cuya última versión fue publicada en 2003 y ha seguido en uso hasta ahora. Sus archivos cuentan con la extensión .xml o .rss y destaca por su sencillez a la hora de distribuir los contenidos a través de la web.
 ### Sinntáxis de RSS
+Los documentos en rss comienzan igual que un XML cualquiera, indicando la versión de este y la de RSS (la 2.0). Toda la estructura se forma a través de la etiqueta "channel" seguida de un título (tittle), el link a la página principal (link), una descripción (description), lenguaje (language), etc... Dentro de "channel" podemos crear las distintas entradas independientes, definidas con la etiqueta "item", que en su interior contará con las mismas etiquetas vistas para su propia identificación; link, title, etc...
 ### Ejemplo de RSS
+Usaré como ejemplo los ejercicos hechos en este tema sin ir más lejos:
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Noticias de "Apruebo Porque Sí"</title>
+    <link>https://www.aprueboporquesi.com</link>
+    <description>Últimas noticias y artículos de interés "Apruebo Porque Sí".</description>
+    <language>es</language>
+    <item>
+      <title>Ofertas de primavera en "Apruebo Porque Sí"</title>
+      <link>https://www.aprueboporquesi.com/ofertasprimavera</link>
+      <description>E aquí nuestra oferta formativa para primavera 2k24!!</description>
+    </item>
+  </channel>
+</rss>
+```
 ## Atom
+Al igual que RSS, Atom también está basado en RSS
 ### Sinntáxis de Atom
 ### Ejemplo de Atom
 ## Herramientas de validación de canales de sindicación.
