@@ -446,3 +446,28 @@ Aquí una serie de ejemplos de canales de sindicación:
 - Xataca: https://www.xataka.com/index.xml
 - El País: https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada
 - National Geographic: https://www.nationalgeographic.com.es/feeds/rss.html
+
+# Actividad de cuaderno UD6
+## Introducción a Python 
+### Python (definición del lenguaje):
+### Variables
+### Tipos de datos
+### Estructuras de control
+- Condicionales
+- Repetitivas
+### Listas
+### Tuplas
+## JSON
+### Definición
+### Elementos
+### Tipos de datos simples
+### Listas (arrays)
+### Objetos
+## MongoDB
+### Definición del motor de base de datos
+### Instalación y configuración con Docker
+### Pymongo
+- Insertar
+- Consulta
+- Borrar
+- Modificar
