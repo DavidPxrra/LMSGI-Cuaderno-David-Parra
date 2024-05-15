@@ -449,9 +449,17 @@ Aquí una serie de ejemplos de canales de sindicación:
 
 # Actividad de cuaderno UD6
 ## Introducción a Python 
+Python es un lenguaje que ha ganado mucho reconocimiento y que está comiendo terreno hasta el punto de convertirse en uno de los más reconocidos debido a su polivalencia, ideal para escribir aplicaciones web, programas, inteligencias artificiales o para analizar datos.
 ### Python (definición del lenguaje):
+Su sintaxis es bastante sencilla, contando con un gran repertorio de códigos que desempeñan casi cualquier función que podamos necesitar a la hora de programar. Python se ejecuta línea por línea, lo que facilita la detección de errores y permite escribir en unas pocas líneas algo que en otros lenguajes nos ocuparía unas cuantas más. Se puede aplicar a otros programas escritos en otros lenguajes como C o Java, es un lenguaje de alto nivel, orientado a objetos, con soporte de la comunidad y muchos recursos online para aprender a usarlo.
 ### Variables
+Python hace uso de variables para determinar los elementos que serán usados en las operaciones a realizar. Las variables en Python se asignan mediante el símbolo "=". 
 ### Tipos de datos
+Existen muchos tipos de datos en python, con una nomenclatura muy similar a la del resto de lenguajes. Podemos encontrar tipos de datos, alfanuméricos, booleanos, etc... como:
+- int: números enteros
+- float: números con decimales
+- string: cadena de caracteres
+- bool: booleano (verdadero, falso)
 ### Estructuras de control
 - Condicionales
 - Repetitivas
