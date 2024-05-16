@@ -480,9 +480,22 @@ Elementos ordenados que poseen un índice que define su posición
 Son conjuntos de subelementos definidos dentro de las etiquetas.
 ## MongoDB
 ### Definición del motor de base de datos
+MongoDB es una base de datos NoSQL de código abierto diseñada para trabajar con grandes volúmenes de datos no estructurados. En lugar de utilizar tablas y filas como las bases de datos relacionales tradicionales, MongoDB almacena la información en documentos BSON, que es una representación binaria de JSON. Esta forma de almacenamiento permite una mayor flexibilidad y escalabilidad, ya que facilita el manejo de datos heterogéneos, así como el crecimiento horizontal a través de la adición de más servidores.
 ### Instalación y configuración con Docker
+Existen diversas formas de instalar MongoDB, y una de ellas es a través de Docker haciendo uso de una imagen que nos permite levantar una instancia para MongoDB. Lo haremos con el siguiente comando:
+```
+docker run --name mongodb -p 27017:27017 -d
+```
+Otra forma es con Docker Compose.
 ### Pymongo
-- Insertar
-- Consulta
-- Borrar
-- Modificar
+Pymongo nos permite conectarnos a bases de datos MongoDB para poder operar con ellas. Se trata de un paquete de python.
+Usaremos los siguientes comandos para conectarnos:
+```
+my client = pymongo.MongoClient("dirección de la base de datos")
+mydb = myclient["nuestrouser"]
+mycol = mydb["packages"]
+```
+- Insertar: Para insertar elementos en la base se utiliza la función "insert_one()" para un único elemento e "insert_many()" para insertar múltiples documentos.
+- Consulta: Las consultas se realizan con "find()", pudiendo recorrer el cursor haciendo un bucle "for".
+- Borrar: Se utiliza la función "delete"
+- Modificar: se utiliza la función "update"
