@@ -461,10 +461,11 @@ Existen muchos tipos de datos en python, con una nomenclatura muy similar a la d
 - string: cadena de caracteres
 - bool: booleano (verdadero, falso)
 ### Estructuras de control
-- Condicionales
-- Repetitivas
-### Listas
-### Tuplas
+Se tratan de estructuras que nos permiten programar la lógica del programa, para que actue de cierta forma en x circunstancias. 
+- Condicionales: Los ordenes se ejecutan cuando se cumple una condición. Algunas estructuras condicionales son "else" o "if"
+- Repetitivas: Se tratan de bucles que repiten una misma acción hasta que se cumple una condición que determina su detención. Las más utilizadas son "while" y "for".
+### Listas: Contienen una serie de elementos de cualquier tipo de manera ordenada. Pueden agregarse o retirarse elementos después de crear la lista
+### Tuplas: Similares a ls listas, salvo que son "inmutables", es decir, que una vez creadas no se pueden alterar. Utilizadas para almacenar elementos que no variarán con el paso del tiempo
 ## JSON
 ### Definición
 ### Elementos
