@@ -464,14 +464,20 @@ Existen muchos tipos de datos en python, con una nomenclatura muy similar a la d
 Se tratan de estructuras que nos permiten programar la lógica del programa, para que actue de cierta forma en x circunstancias. 
 - Condicionales: Los ordenes se ejecutan cuando se cumple una condición. Algunas estructuras condicionales son "else" o "if"
 - Repetitivas: Se tratan de bucles que repiten una misma acción hasta que se cumple una condición que determina su detención. Las más utilizadas son "while" y "for".
-### Listas: Contienen una serie de elementos de cualquier tipo de manera ordenada. Pueden agregarse o retirarse elementos después de crear la lista
-### Tuplas: Similares a ls listas, salvo que son "inmutables", es decir, que una vez creadas no se pueden alterar. Utilizadas para almacenar elementos que no variarán con el paso del tiempo
+### Listas
+Contienen una serie de elementos de cualquier tipo de manera ordenada. Pueden agregarse o retirarse elementos después de crear la lista
+### Tuplas
+Similares a ls listas, salvo que son "inmutables", es decir, que una vez creadas no se pueden alterar. Utilizadas para almacenar elementos que no variarán con el paso del tiempo
 ## JSON
 ### Definición
+Se trata de un lenguaje de marcas que antaño servía para representar datos en JavaScript, pero con el paso del tiempo ha recibido tanto contenido por parte de la comunidad que hoy en dia es un lenguaje multipropósito. Su sintaxis es mediante etiquetas de apertura y de cierre. 
 ### Elementos
+Los objetos se definen como clave-valor (la clave define el tipo de elemento y el valor su contenido). Existen varios tipos de elementos en un JSON, como los espacios en blanco, los separadores, etc...
 ### Tipos de datos simples
 ### Listas (arrays)
+Elementos ordenados que poseen un índice que define su posición
 ### Objetos
+Son conjuntos de subelementos definidos dentro de las etiquetas.
 ## MongoDB
 ### Definición del motor de base de datos
 ### Instalación y configuración con Docker
